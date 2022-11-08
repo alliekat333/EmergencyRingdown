@@ -1,4 +1,5 @@
-# *THIS CODE HAS NOT YET BEEN FULLY TESTED! USE AT YOUR OWN RISK*
+# *THIS CODE HAS NOT YET BEEN FULLY TESTED!* 
+# *USE AT YOUR OWN RISK.* NO WARRANTIES MADE.
 
 # Emergency Ringdown
 ## Inspiration
@@ -12,7 +13,7 @@ The system being implemented here is a version of what Dev describes at ["L.P.L.
 This solution is a more affordable version of the solution that Dev presents at ["L.P.L.G.": 1:03:29-1:04:56](https://www.youtube.com/watch?v=6ihrGNGesfI&t=1h03m29s). I can't afford $20+/mo right now on a worst case/will hopefully never need to use it solution, but I can spend $2/mo or less for the peace of mind it brings. The Basic Implementation Guide is meant so that anyone can use it, regardless of technical knowledge, because I found Twilio's UI to be somewhat unfriendly to the beginner and I don't want that to be a barrier. If any of it is found to be out of date, please log this under Issues on GitHub, with as much detail as possible.
 
 # Basic Implementation
-This system uses [Twilio.com](https://twilio.com) to implement a version of an automatic ring-down list in the most light-weight way possible (to my knowledge) and with minimal technical skill required. Copy-Paste and simple editing of names and phone numbers only.
+This system uses [Twilio.com](https://twilio.com) to implement a version of an automatic ring-down list in the most light-weight way possible (to my knowledge) and with minimal technical skill required, Copy-Paste and simple editing of names and phone numbers is all that's required.
 
 1. Make an account at [Twilio.com](https://twilio.com)
 2. Verify Email Address and set up 2FA: "Account Name" in Top Right Corner -> User Settings
@@ -21,10 +22,11 @@ This system uses [Twilio.com](https://twilio.com) to implement a version of an a
     - I recommend using the auto-top up feature, you want this to work, even if you've forgotten about it.
 4. Have Twilio Host Your Code: Explore Products (Sidebar) -> Developer Tools -> TwiML Bins
     - Add Friendly Name
-    - Copy and Paste Code from [here]()
-    - Change the numbers and names as needed
-    - Make sure the TwiML sytax is valid
-    - Create
+    - Copy and Paste Code from [BasicRingdownCode.xml](BasicRingdownCode.xml)
+    - Replace ```[Your Name]```, ```[Friend's Name]```, ```[Country Code, then your phone number, e.g. +19998887770]```, ```[Country Code, then friend's phone number, e.g. +1999888777*]``` fields with your name, your close friends' names, your phone number, your friends' phone numbers, respectively (without the square brackets).
+    - Leave ```callerId="[Country Code (US is +1), then Phone Number Purchased through Twillio, e.g. +13332221111]"``` as is, we will update it in Step 9.
+    - Make sure the TwiML sytax registers as valid
+    - Hit Create
     - Copy the URL
 5. Save App URL to a Friendly Name: Explore Products (Sidebar) -> Programmable communications -> Voice -> Manage -> TwiML Apps -> Create new TwiML App
     - Give your app a friendly name
@@ -44,7 +46,9 @@ This system uses [Twilio.com](https://twilio.com) to implement a version of an a
       - Configure With: TwiML App
       - TWIML App: [The TwiML App Name you created in Step 5.]
     -Hit Save
-9. Test Your System By Calling the Line
+9. Update Code with Phone Number: Go back to the code created in Step. 4.
+    - Replace ```[Country Code (US is +1), then Phone Number Purchased through Twillio, e.g. +13332221111]``` in ```callerId="[Country Code (US is +1), then Phone Number Purchased through Twillio, e.g. +13332221111]"```, with the phone number you purchased.
+10. Test Your System By Calling the Line
     - "*" Should disconnect you from any given call
     - It will ring everyone first to alert your entire network (the first person or answering machine to pick up is connected, all others are disconnected, but everyone should have a missed call notification).
     - Then it will go down the list individually until you hang up or it has tried every number.
@@ -61,7 +65,8 @@ This system uses [Twilio.com](https://twilio.com) to implement a version of an a
 - Pin to prevent spam calls from going through (?)
 - Conference Call Functionality (?)
 
-## Deviant's List of 20 Preparedness Goals: If you're already here, why not implement some of these too?
+# If you're already here, why not implement some of these too?
+## Deviant's List of 20 Preparedness Goals:
 Dev's take-away lessons from ["Lawyer. Passport. Locksmith. Gun. (A Talk About Risk & Preparedness)" (starting at 1:10:24)](https://www.youtube.com/watch?v=6ihrGNGesfI&t=1h10m24s): 
 
 ### All of these can be done without putting on pants:
@@ -102,4 +107,4 @@ Dev's take-away lessons from ["Lawyer. Passport. Locksmith. Gun. (A Talk About R
 
 20. **Never miss the opportunity to tell everyone in your life how much you love them, and how much they matter to you.**
 
-### **__The Cavalry isn't coming, it's just us. We keep us safe.__**
+### **__"The Cavalry isn't coming, it's just us. We keep us safe."__** -Deviant Ollam, 2022 (and probably others) 
