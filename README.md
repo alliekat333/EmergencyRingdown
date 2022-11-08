@@ -1,7 +1,13 @@
-# *THIS CODE HAS NOT YET BEEN FULLY TESTED!* 
-# *USE AT YOUR OWN RISK.* NO WARRANTIES MADE.
+## *THIS CODE HAS NOT YET BEEN FULLY TESTED!* 
 
-# Emergency Ringdown
+# Automatic Emergency Ringdown Dialer 
+## (Alternatively, "The Oh Fuck! I need some fucking help! Dialer")
+Please adapt and improve and change as you see fit. The important thing is that this option is available to those who might need it. 
+
+Consider linking/acknowledging ["Lawyer. Passport. Locksmith. Gun. (A Talk About Risk & Preparedness)"](https://www.youtube.com/watch?v=6ihrGNGesfI) if you improve/change this code.
+
+## *USE AT YOUR OWN RISK. NO WARRANTIES MADE. YMMV.*
+
 ## Inspiration
 Deviant Ollam's story about his friend Kara from ["Lawyer. Passport. Locksmith. Gun. (A Talk About Risk & Preparedness)" (starting at 52:46)](https://www.youtube.com/watch?v=6ihrGNGesfI&t=52m46s) through the end of the video, but especially ["L.P.L.G.": 59:34-1:02:42](https://www.youtube.com/watch?v=6ihrGNGesfI&t=59m34s) (if you only have 60s to spare, please watch ["L.P.L.G.": 1:01:44-1:02:42](https://www.youtube.com/watch?v=6ihrGNGesfI&t=1h01m44s) to understand why this system and ones like it might be important).
 
