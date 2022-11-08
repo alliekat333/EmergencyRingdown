@@ -8,6 +8,9 @@ Consider linking/acknowledging ["Lawyer. Passport. Locksmith. Gun. (A Talk About
 
 ## *USE AT YOUR OWN RISK. NO WARRANTIES MADE. YMMV.*
 
+## Conflict of Interest Statement
+I am not affiliated with Twilio (or anyone else for that matter), but I have used their services in the past and they are fairly inexpensive (especially as compared to a few of the options from Dev's Video). This, and my (relative) familiarity with their system is why I have implemented this code using their system.
+
 ## Inspiration
 Deviant Ollam's story about his friend Kara from ["Lawyer. Passport. Locksmith. Gun. (A Talk About Risk & Preparedness)" (starting at 52:46)](https://www.youtube.com/watch?v=6ihrGNGesfI&t=52m46s) through the end of the video, but especially ["L.P.L.G.": 59:34-1:02:42](https://www.youtube.com/watch?v=6ihrGNGesfI&t=59m34s) (if you only have 60s to spare, please watch ["L.P.L.G.": 1:01:44-1:02:42](https://www.youtube.com/watch?v=6ihrGNGesfI&t=1h01m44s) to understand why this system and ones like it might be important).
 
