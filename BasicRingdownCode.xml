@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Say>[Your Name]'s Automatic Emergency Ringdown Line.</Say>  
+  <Say>Assume this line is being recorded.</Say>
+  <Say>Stay calm, shut the fuck up, lawyer up.</Say>
+  <Say>Only tell us your location and how we can help.</Say>
+  <Say>Press star to end any call.</Say>
+  
+  <Say>Calling All Numbers, Individual Ringdown After</Say>
+  <Dial callerId="[Country Code (US is +1), then Phone Number Purchased through Twillio, e.g. +13332221111]" hangupOnStar="true">
+        <Number>[Country Code, then your phone number, e.g. +19998887770]</Number>
+        <Number>[Country Code, then friend's phone number, e.g. +19998887771]</Number>
+        <Number>[Country Code, then friend's phone number, e.g. +19998887772]</Number>    
+        <Number>[Country Code, then friend's phone number, e.g. +19998887773]</Number>    
+        <Number>[Country Code, then friend's phone number, e.g. +19998887774]</Number>    
+        <Number>[Country Code, then friend's phone number, e.g. +19998887775]</Number>    
+        <Number>[Country Code, then friend's phone number, e.g. +19998887776]</Number>    
+        <Number>[Country Code, then friend's phone number, e.g. +19998887777]</Number>    
+        <Number>[Country Code, then friend's phone number, e.g. +19998887778]</Number>    
+        <Number>[Country Code, then friend's phone number, e.g. +19998887779]</Number>    
+  </Dial>
+  
+  <Say>Calling [Your Name]</Say>
+  <Dial callerId="[Country Code (US is +1), then Phone Number Purchased through Twillio, e.g. +13332221111]" hangupOnStar="true">
+        <Number>[Country Code, then your phone number, e.g. +19998887770]</Number>
+  </Dial>
+  
+  <Say>Calling [Friend's Name]</Say>
+  <Dial callerId="[Country Code (US is +1), then Phone Number Purchased through Twillio, e.g. +13332221111]" hangupOnStar="true">
+        <Number>[Country Code, then friend's phone number, e.g. +19998887771]</Number>
+  </Dial>
+  
+  [Repeat Lines 28-31 as many times as needed for all trusted friends.]
+  
+</Response>
